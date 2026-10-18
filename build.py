@@ -14,6 +14,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, 'src')
 DIST = os.path.join(ROOT, 'dist')
 VERSION = hashlib.md5(b''.join(open(os.path.join(SRC, 'assets', f), 'rb').read() for f in ('style.css', 'main.js'))).hexdigest()[:8]
+LOGO_V = hashlib.md5(b''.join(open(os.path.join(SRC, f), 'rb').read() for f in ('img/brand/logo.svg', 'img/brand/logo-light.svg', 'favicon.svg'))).hexdigest()[:8]
 
 data = json.load(open(os.path.join(SRC, 'tours.json'), encoding='utf-8'))
 SITE, HOME, TOURS, VIDEOS, BOOK = data['site'], data['home'], data['tours'], data['videos'], data['booking']
@@ -122,7 +123,7 @@ def head(title, desc, path, og_img, extra=''):
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.svg?v={LOGO_V}" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -135,7 +136,7 @@ def head(title, desc, path, og_img, extra=''):
 def header():
     return f'''<header class="site-header">
   <div class="wrap">
-    <a class="logo" href="/" aria-label="Mèo về núi, về trang chủ"><img src="/img/brand/logo.svg" width="202" height="96" alt="Mèo về núi - Quang Tri Tour"></a>
+    <a class="logo" href="/" aria-label="Mèo về núi, về trang chủ"><img src="/img/brand/logo.svg?v={LOGO_V}" width="202" height="96" alt="Mèo về núi - Quang Tri Tour"></a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav class="nav" id="nav">
       <a href="/#tour">Các tour</a>
@@ -154,7 +155,7 @@ def footer():
     return f'''<footer class="site-footer">
   <div class="wrap">
     <div>
-      <a class="logo logo--footer" href="/" aria-label="Mèo về núi, về trang chủ"><img src="/img/brand/logo-light.svg" width="202" height="96" alt="Mèo về núi - Quang Tri Tour"></a>
+      <a class="logo logo--footer" href="/" aria-label="Mèo về núi, về trang chủ"><img src="/img/brand/logo-light.svg?v={LOGO_V}" width="202" height="96" alt="Mèo về núi - Quang Tri Tour"></a>
       <p style="margin-top:12px;max-width:340px">Mình là Mèo, local guide người Quảng Trị. Mình dẫn tour ghép nhóm nhỏ và tour riêng đi khắp quê mình, từ di tích lịch sử tới núi rừng phía Tây.</p>
     </div>
     <div>
