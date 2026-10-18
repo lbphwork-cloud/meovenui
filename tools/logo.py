@@ -51,7 +51,7 @@ def svg(main, soft, ink):
 </svg>
 '''
 open(f'{OUT}/logo.svg', 'w').write(svg('#2f513c', '#6a9472', '#253f30'))
-open(f'{OUT}/logo-light.svg', 'w').write(svg('#fafbf6', '#d4e5d5', '#a7c3ac'))
+open(f'{OUT}/logo-light.svg', 'w').write(svg('#fafbf6', '#d4e5d5', '#ecd59e'))
 # Favicon: chỉ chữ M mặt mèo
 open(f'{OUT}/favicon.svg', 'w').write(f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 0 232 200"><g fill="#2f513c" stroke="#2f513c"><path d="{M}" stroke="none"/><g stroke="none">{eyes}</g>{smile}</g></svg>
 ''')
