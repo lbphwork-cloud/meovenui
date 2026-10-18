@@ -16,8 +16,8 @@
 
   "home": {
     "hero_img": "khe-sanh/hero",
-    "eyebrow": "Mèo về núi - Local guide Quảng Trị",
-    "title": "Về Quảng Trị chơi với Mèo nha",
+    "eyebrow": "Xin chào từ Quảng Trị",
+    "title": "Về Quảng Trị chơi *với Mèo nha*",
     "lead": "Mình là Mèo, một local guide người Quảng Trị. Mình dẫn tour ghép nhóm nhỏ và cả tour riêng: nghe chuyện lịch sử ở Thành cổ, Vịnh Mốc, lên Khe Sanh săn mây, ngủ nhà sàn của bà con Bru Vân Kiều và ăn món Lào ở Lao Bảo.",
     "stats": [
       {"num": "4", "label": "hành trình đang mở"},
@@ -27,7 +27,7 @@
     ],
     "about": {
       "img": "meo/rung-thong",
-      "title": "Chào bạn, mình là Mèo nè",
+      "title": "Chào bạn, mình là *Mèo nè*",
       "paras": [
         "Mình là người Quảng Trị, bỏ phố về quê với một ước mơ nhỏ xíu: làm du lịch để nhiều người biết đến quê mình hơn. Hơn một năm nay mình đi khắp Quảng Trị nghe chuyện, học chuyện, và may mắn được đồng hành cùng hơn 100 bạn khách rồi đó.",
         "Đi tour với mình thì không chỉ nghe kể lịch sử đâu nha. Mình sẽ rủ bạn đi săn mây, ngồi cà phê Khe Sanh, ngủ nhà sàn, ăn món Lào, biết đâu về còn có thêm mấy người bạn mới nữa.",

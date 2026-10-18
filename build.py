@@ -31,6 +31,11 @@ def rich(s):
     return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', e(s))
 
 
+def emph(s):
+    """Chữ cho tiêu đề, phần nằm giữa *...* in nghiêng màu nhấn."""
+    return re.sub(r'\*(.+?)\*', r'<em>\1</em>', e(s))
+
+
 def jpeg_size(path):
     with open(path, 'rb') as f:
         f.read(2)
@@ -106,7 +111,7 @@ def head(title, desc, path, og_img, extra=''):
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{e(url)}">
-<meta name="theme-color" content="#48601c">
+<meta name="theme-color" content="#3d5a2b">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="vi_VN">
 <meta property="og:site_name" content="{e(SITE['name'])}">
@@ -120,7 +125,7 @@ def head(title, desc, path, og_img, extra=''):
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,100,0..1;1,9..144,300..600,100,0..1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css?v={VERSION}">
 {extra}</head>
 <body>
@@ -130,7 +135,7 @@ def head(title, desc, path, og_img, extra=''):
 def header():
     return f'''<header class="site-header">
   <div class="wrap">
-    <a class="logo" href="/">{e(SITE['name'])}</a>
+    <a class="logo" href="/"><b>{e(SITE['name'])}</b><small>{e(SITE['tagline'])}</small></a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav class="nav" id="nav">
       <a href="/#tour">Các tour</a>
@@ -149,7 +154,7 @@ def footer():
     return f'''<footer class="site-footer">
   <div class="wrap">
     <div>
-      <a class="logo" href="/">{e(SITE['name'])}</a>
+      <a class="logo" href="/"><b>{e(SITE['name'])}</b><small>{e(SITE['tagline'])}</small></a>
       <p style="margin-top:12px;max-width:340px">Mình là Mèo, local guide người Quảng Trị. Mình dẫn tour ghép nhóm nhỏ và tour riêng đi khắp quê mình, từ di tích lịch sử tới núi rừng phía Tây.</p>
     </div>
     <div>
@@ -234,7 +239,7 @@ def build_home():
   {img(HOME['hero_img'], 'Máy bay tại Sân bay Tà Cơn, Khe Sanh', 'hero__img', lazy=False)}
   <div class="wrap">
     <div class="hero__eyebrow">{e(HOME['eyebrow'])}</div>
-    <h1>{e(HOME['title'])}</h1>
+    <h1>{emph(HOME['title'])}</h1>
     <p class="hero__lead">{e(HOME['lead'])}</p>
     <div class="hero__actions">
       <a class="btn btn--light" href="#tour">Xem các tour</a>
@@ -242,7 +247,7 @@ def build_home():
     </div>
   </div>
 </section>
-<div class="stats"><div class="wrap">{stats}</div></div>
+<div class="stats"><div class="wrap"><div>{stats}</div></div></div>
 
 <section class="section" id="tour">
   <div class="wrap">
@@ -260,7 +265,7 @@ def build_home():
     <div class="about__img reveal">{img(a['img'], 'Mèo về núi giữa rừng thông Khe Sanh')}</div>
     <div class="about__text reveal">
       <span class="eyebrow">Về Mèo</span>
-      <h2 class="h2">{e(a['title'])}</h2>
+      <h2 class="h2">{emph(a['title'])}</h2>
       {paras}
       <div class="about__social">
         <a class="btn btn--ghost btn--sm" href="{e(SITE['tiktok'])}" target="_blank" rel="noopener">TikTok @meovenui</a>
@@ -399,7 +404,7 @@ def build_tour(t):
         left = f'<div class="card reveal"><h3>Bảng giá</h3><table class="ptable"><thead><tr><th>{e(pt["head"][0])}</th><th>{e(pt["head"][1])}</th></tr></thead><tbody>{rows}</tbody></table>{pn}</div>'
     else:
         left = f'''<div class="card reveal"><h3>Giá tour</h3>
-  <div style="font-size:40px;font-weight:700;color:var(--green-900);line-height:1.1">{e(t['price_from'])}<small style="font-size:16px;font-weight:500;color:var(--ink-3)">{e(t['price_unit'])}</small></div>
+  <div style="font-family:var(--serif);font-size:44px;font-weight:500;color:var(--clay-600);line-height:1.1;font-variation-settings:'SOFT' 100">{e(t['price_from'])}<small style="font-family:var(--sans);font-size:16px;font-weight:500;color:var(--ink-3)">{e(t['price_unit'])}</small></div>
   <p style="color:var(--ink-2);margin-top:10px">{e(t['price_note'])}. {e(t['facts'][2]['v'])}.</p>
   <div class="share-row">{zalo_btn('Hỏi Mèo lịch khởi hành', t)}{call_btn()}</div>
 </div>'''
@@ -471,9 +476,9 @@ def build_tour(t):
     </div>
   </div>
 </section>
-<div class="facts-bar"><div class="wrap">{facts}
+<div class="facts-bar"><div class="wrap"><div>{facts}
   <div class="fact fact--price"><div><div class="fact__k">Giá từ</div><div class="fact__v">{e(t['price_from'])}<small>{e(t['price_unit'])}</small></div><div class="fact__note">{e(t['price_note'])}</div></div></div>
-</div></div>
+</div></div></div>
 <nav class="subnav" aria-label="Mục lục tour"><div class="wrap">{subnav}</div></nav>
 
 <section class="section anchor" id="gioi-thieu">
