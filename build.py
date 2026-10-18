@@ -111,7 +111,7 @@ def head(title, desc, path, og_img, extra=''):
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{e(url)}">
-<meta name="theme-color" content="#3d5a2b">
+<meta name="theme-color" content="#43704e">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="vi_VN">
 <meta property="og:site_name" content="{e(SITE['name'])}">

@@ -50,9 +50,9 @@ def svg(main, soft, ink):
 <path d="{caps}" fill="{ink}"/>
 </svg>
 '''
-open(f'{OUT}/logo.svg', 'w').write(svg('#3d5a2b', '#5c7a45', '#2d4221'))
-open(f'{OUT}/logo-light.svg', 'w').write(svg('#fbf8f1', '#d6dfc8', '#e3b08f'))
+open(f'{OUT}/logo.svg', 'w').write(svg('#2f513c', '#6a9472', '#253f30'))
+open(f'{OUT}/logo-light.svg', 'w').write(svg('#fafbf6', '#d4e5d5', '#ecd59e'))
 # Favicon: chỉ chữ M mặt mèo
-open(f'{OUT}/favicon.svg', 'w').write(f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 0 232 200"><g fill="#3d5a2b" stroke="#3d5a2b"><path d="{M}" stroke="none"/><g stroke="none">{eyes}</g>{smile}</g></svg>
+open(f'{OUT}/favicon.svg', 'w').write(f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 0 232 200"><g fill="#2f513c" stroke="#2f513c"><path d="{M}" stroke="none"/><g stroke="none">{eyes}</g>{smile}</g></svg>
 ''')
 print('W', round(W), 'eo_end', round(eo_end), 'caps_end', round(caps_end))
