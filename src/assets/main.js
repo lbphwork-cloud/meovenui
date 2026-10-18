@@ -64,7 +64,7 @@
   $$('[data-book]').forEach(function (a) {
     a.addEventListener('click', function () {
       var msg = a.getAttribute('data-book');
-      copy(msg).then(function () { say('Đã copy tin nhắn, bạn dán vào khung chat Zalo nhé'); }, function () {});
+      copy(msg).then(function () { say('Đã copy sẵn tin nhắn rồi nè, bạn dán vào Zalo cho Mèo nha'); }, function () {});
     });
   });
 
@@ -76,7 +76,7 @@
         navigator.share({ title: document.title, url: url }).catch(function () {});
         return;
       }
-      copy(url).then(function () { say('Đã copy link tour'); }, function () { say(url); });
+      copy(url).then(function () { say('Đã copy link tour rồi nha'); }, function () { say(url); });
     });
   });
 

@@ -150,28 +150,28 @@ def footer():
   <div class="wrap">
     <div>
       <a class="logo" href="/">{e(SITE['name'])}</a>
-      <p style="margin-top:12px;max-width:340px">{e(SITE['tagline'])}. Tour ghép nhóm nhỏ và tour riêng khám phá lịch sử, văn hoá, thiên nhiên Quảng Trị.</p>
+      <p style="margin-top:12px;max-width:340px">Mình là Mèo, local guide người Quảng Trị. Mình dẫn tour ghép nhóm nhỏ và tour riêng đi khắp quê mình, từ di tích lịch sử tới núi rừng phía Tây.</p>
     </div>
     <div>
       <h4>Các tour</h4>
       <ul>{tours}<li><a href="/dat-tour/">Cách đặt tour và hoàn huỷ</a></li></ul>
     </div>
     <div>
-      <h4>Liên hệ</h4>
+      <h4>Nhắn Mèo</h4>
       <ul>
         <li><a href="tel:{SITE['phone']}">{e(SITE['phone_display'])}</a> (Zalo, điện thoại)</li>
         <li><a href="mailto:{e(SITE['email'])}">{e(SITE['email'])}</a></li>
         <li><a href="{e(SITE['tiktok'])}" target="_blank" rel="noopener">TikTok</a> &nbsp; <a href="{e(SITE['facebook'])}" target="_blank" rel="noopener">Facebook</a> &nbsp; <a href="{e(SITE['instagram'])}" target="_blank" rel="noopener">Instagram</a></li>
       </ul>
     </div>
-    <div class="footer-copy">&copy; {date.today().year} {e(SITE['name'])}. Ảnh và video do Mèo về núi thực hiện.</div>
+    <div class="footer-copy">&copy; {date.today().year} {e(SITE['name'])}. Ảnh và video là của Mèo tự chụp, tự quay nha.</div>
   </div>
 </footer>
 <div class="modal" id="video-modal" role="dialog" aria-modal="true" aria-label="Xem video">
   <div class="modal__box">
     <button class="modal__close" type="button">Đóng</button>
     <iframe class="modal__frame" src="about:blank" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen title="Video TikTok của Mèo về núi"></iframe>
-    <a class="modal__link" href="{e(SITE['tiktok'])}" target="_blank" rel="noopener">Mở video trên TikTok</a>
+    <a class="modal__link" href="{e(SITE['tiktok'])}" target="_blank" rel="noopener">Xem video này trên TikTok của Mèo</a>
   </div>
 </div>
 <div class="modal lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Xem ảnh">
@@ -238,7 +238,7 @@ def build_home():
     <p class="hero__lead">{e(HOME['lead'])}</p>
     <div class="hero__actions">
       <a class="btn btn--light" href="#tour">Xem các tour</a>
-      {zalo_btn('Nhắn Mèo qua Zalo', cls='btn btn--ghost-light')}
+      {zalo_btn('Nhắn Zalo cho Mèo', cls='btn btn--ghost-light')}
     </div>
   </div>
 </section>
@@ -247,9 +247,9 @@ def build_home():
 <section class="section" id="tour">
   <div class="wrap">
     <div class="section-head reveal">
-      <span class="eyebrow">Các hành trình</span>
-      <h2 class="h2">Chọn tour bạn muốn đi</h2>
-      <p>Mỗi tour có lịch trình chi tiết, bảng giá, chi phí bao gồm và video thực tế từ các chuyến đi trước. Cần lịch khởi hành gần nhất hoặc muốn đi riêng theo nhóm, bạn nhắn Mèo nhé.</p>
+      <span class="eyebrow">Các tour của Mèo</span>
+      <h2 class="h2">Bạn muốn đi đâu với mình?</h2>
+      <p>Mỗi tour mình để sẵn lịch trình, bảng giá, những gì đã bao gồm và cả video từ các chuyến đi trước. Muốn biết lịch khởi hành gần nhất hay muốn đi riêng theo nhóm thì nhắn Mèo nha.</p>
     </div>
     <div class="tour-grid">{cards}</div>
   </div>
@@ -259,7 +259,7 @@ def build_home():
   <div class="wrap about">
     <div class="about__img reveal">{img(a['img'], 'Mèo về núi giữa rừng thông Khe Sanh')}</div>
     <div class="about__text reveal">
-      <span class="eyebrow">Local guide người Quảng Trị</span>
+      <span class="eyebrow">Về Mèo</span>
       <h2 class="h2">{e(a['title'])}</h2>
       {paras}
       <div class="about__social">
@@ -274,9 +274,9 @@ def build_home():
 <section class="section" id="video">
   <div class="wrap">
     <div class="section-head reveal">
-      <span class="eyebrow">Video từ các chuyến đi</span>
-      <h2 class="h2">Xem trước hành trình</h2>
-      <p>Bấm vào video để xem ngay trên trang, không cần cài TikTok.</p>
+      <span class="eyebrow">Video Mèo quay</span>
+      <h2 class="h2">Xem thử chuyến đi nè</h2>
+      <p>Bấm vào video là xem được liền, không cần cài TikTok đâu nha.</p>
     </div>
     {video_rail(HOME['featured_videos'])}
   </div>
@@ -286,7 +286,7 @@ def build_home():
   <div class="wrap">
     <div class="section-head reveal">
       <span class="eyebrow">Đặt tour</span>
-      <h2 class="h2">Đặt tour trong 4 bước</h2>
+      <h2 class="h2">Đặt tour với Mèo dễ lắm, 4 bước thui</h2>
     </div>
     {steps_html()}
     <div class="policy-link"><a class="btn btn--ghost-light" href="/dat-tour/">Xem chính sách hoàn huỷ</a></div>
@@ -297,8 +297,8 @@ def build_home():
   <div class="wrap">
     <div class="cta-band reveal">
       <div>
-        <h2>Muốn đi tour riêng cho nhóm hoặc gia đình?</h2>
-        <p>Mèo nhận thiết kế lịch trình riêng theo số ngày, sở thích và sức khoẻ của đoàn.</p>
+        <h2>Đi riêng cả nhóm hay cả nhà?</h2>
+        <p>Mình nhận lên lịch trình riêng theo số ngày, sở thích và sức khoẻ của cả đoàn. Nhắn Mèo kể mình nghe bạn muốn đi kiểu gì nha.</p>
       </div>
       <div class="cta-band__actions">
         {zalo_btn('Nhắn Zalo', cls='btn btn--light')}
@@ -371,7 +371,7 @@ def build_tour(t):
     if t.get('videos'):
         videos = f'''<section class="section section--green anchor" id="video">
   <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Video thực tế</span><h2 class="h2">Xem chuyến đi qua video</h2><p>Bấm vào video để xem ngay trên trang.</p></div>
+    <div class="section-head reveal"><span class="eyebrow">Video Mèo quay</span><h2 class="h2">Xem thử chuyến đi nè</h2><p>Bấm vào video là xem được liền nha.</p></div>
     {video_rail(t['videos'])}
   </div>
 </section>'''
@@ -383,7 +383,7 @@ def build_tour(t):
         ps = ''.join(f'<figure class="place reveal">{img(p["img"], p["name"], zoom=True)}<figcaption>{e(p["name"])}</figcaption></figure>' for p in t['places'])
         places = f'''<section class="section section--sand anchor" id="diem-den">
   <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Trong lịch trình</span><h2 class="h2">Các điểm đến tiêu biểu</h2></div>
+    <div class="section-head reveal"><span class="eyebrow">Trong lịch trình</span><h2 class="h2">Mình sẽ cùng nhau ghé những nơi này</h2></div>
     <div class="places">{ps}</div>
   </div>
 </section>'''
@@ -401,7 +401,7 @@ def build_tour(t):
         left = f'''<div class="card reveal"><h3>Giá tour</h3>
   <div style="font-size:40px;font-weight:700;color:var(--green-900);line-height:1.1">{e(t['price_from'])}<small style="font-size:16px;font-weight:500;color:var(--ink-3)">{e(t['price_unit'])}</small></div>
   <p style="color:var(--ink-2);margin-top:10px">{e(t['price_note'])}. {e(t['facts'][2]['v'])}.</p>
-  <div class="share-row">{zalo_btn('Hỏi lịch khởi hành', t)}{call_btn()}</div>
+  <div class="share-row">{zalo_btn('Hỏi Mèo lịch khởi hành', t)}{call_btn()}</div>
 </div>'''
     inc = '<ul class="checklist">' + ''.join(f'<li>{e(x)}</li>' for x in t['included']) + '</ul>'
     exc = ''
@@ -412,7 +412,7 @@ def build_tour(t):
         notes = '<div class="notes-box reveal"><h4>Lưu ý</h4><ul>' + ''.join(f'<li>{e(n)}</li>' for n in t['notes']) + '</ul></div>'
     price = f'''<section class="section anchor" id="gia-tour">
   <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Chi phí</span><h2 class="h2">Giá tour và dịch vụ</h2></div>
+    <div class="section-head reveal"><span class="eyebrow">Chi phí</span><h2 class="h2">Giá tour và những gì đã có</h2></div>
     <div class="price-grid">
       <div>{left}{notes}</div>
       <div><div class="card reveal"><h3>Đã bao gồm</h3>{inc}</div>{exc}</div>
@@ -428,7 +428,7 @@ def build_tour(t):
         season = f'''<section class="section section--green anchor" id="mua-dep">
   <div class="wrap season">
     <div class="season__text reveal"><span class="eyebrow">Từ đầu tháng 11 đến giữa tháng 1</span><h2 class="h2" style="margin-bottom:20px">{e(s['title'])}</h2>{st}
-      <div class="share-row">{zalo_btn('Hỏi lịch mùa lá đỏ', t, 'btn btn--light')}</div></div>
+      <div class="share-row">{zalo_btn('Hỏi Mèo lịch mùa lá đỏ', t, 'btn btn--light')}</div></div>
     <div class="mosaic reveal">{mos}</div>
   </div>
 </section>'''
@@ -487,7 +487,7 @@ def build_tour(t):
 {videos}
 <section class="section anchor" id="lich-trinh">
   <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Lịch trình chi tiết</span><h2 class="h2">Hành trình từng ngày</h2><p>Lịch trình có thể điều chỉnh nhẹ theo thời tiết và tình hình thực tế để đoàn có trải nghiệm tốt nhất.</p></div>
+    <div class="section-head reveal"><span class="eyebrow">Lịch trình chi tiết</span><h2 class="h2">Mình sẽ đi những đâu?</h2><p>Lịch trình có thể đổi chút xíu theo thời tiết và tình hình thực tế, để cả đoàn đi vui và an toàn nhất nha.</p></div>
     {days}
   </div>
 </section>
@@ -497,14 +497,14 @@ def build_tour(t):
 {more}
 <section class="section anchor" id="anh">
   <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Thư viện ảnh</span><h2 class="h2">Ảnh từ các chuyến đi</h2></div>
+    <div class="section-head reveal"><span class="eyebrow">Album</span><h2 class="h2">Ảnh từ mấy chuyến đi trước</h2></div>
     <div class="gallery reveal">{gal}</div>
   </div>
 </section>
 
 <section class="section section--green">
   <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Đặt tour</span><h2 class="h2">Đặt tour trong 4 bước</h2></div>
+    <div class="section-head reveal"><span class="eyebrow">Đặt tour</span><h2 class="h2">Đặt tour với Mèo dễ lắm, 4 bước thui</h2></div>
     {steps_html()}
     <div class="share-row" style="margin-top:28px">{zalo_btn('Đặt tour qua Zalo', t, 'btn btn--light')}<a class="btn btn--ghost-light" href="/dat-tour/">Chính sách hoàn huỷ</a></div>
   </div>
@@ -512,7 +512,7 @@ def build_tour(t):
 
 <section class="section section--sand other-tours">
   <div class="wrap">
-    <div class="section-head reveal"><span class="eyebrow">Tour khác</span><h2 class="h2">Có thể bạn cũng thích</h2></div>
+    <div class="section-head reveal"><span class="eyebrow">Tour khác</span><h2 class="h2">Mèo còn mấy tour này nữa nè</h2></div>
     <div class="tour-grid">{others}</div>
   </div>
 </section>
@@ -537,13 +537,13 @@ def build_booking():
 <section class="page-head"><div class="wrap">
   <span class="eyebrow">Đặt tour</span>
   <h1>Cách đặt tour và chính sách hoàn huỷ</h1>
-  <p>Bạn nhắn Mèo qua Zalo hoặc gọi {e(SITE['phone_display'])} để kiểm tra lịch còn chỗ trước khi đặt cọc.</p>
+  <p>Trước khi chuyển cọc, bạn nhắn Zalo hoặc gọi Mèo qua số {e(SITE['phone_display'])} để mình kiểm tra lịch còn chỗ giúp bạn nha.</p>
 </div></section>
 <section class="section" style="padding-top:24px"><div class="wrap">
   {steps_html(light=True)}
   <div class="prose">
     <h2>Chính sách hoàn huỷ</h2>
-    <p>Số ngày được tính tới ngày khởi hành.</p>
+    <p>Số ngày tính tới ngày khởi hành nha.</p>
     <ul>{cancel}</ul>
     <h2>Điều kiện bất khả kháng</h2>
     <p>{e(BOOK['force_majeure'])}</p>
@@ -560,8 +560,8 @@ def build_404():
     out = head(f'Không tìm thấy trang | {SITE["name"]}', SITE['description'], '/404', 'home')
     out += header()
     out += f'''<main><section class="page-head"><div class="wrap">
-  <h1>Không tìm thấy trang này</h1>
-  <p>Có thể đường link đã cũ. Bạn xem danh sách tour ở trang chủ nhé.</p>
+  <h1>Ui, Mèo không tìm thấy trang này</h1>
+  <p>Chắc đường link cũ rồi đó. Bạn quay về trang chủ xem các tour của mình nha.</p>
   <div class="share-row"><a class="btn btn--primary" href="/#tour">Xem các tour</a></div>
 </div></section></main>
 '''
