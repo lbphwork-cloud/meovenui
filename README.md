@@ -41,7 +41,14 @@ python3 build.py
 
 ## Đang chạy ở đâu
 
-GitHub Pages: https://lbphwork-cloud.github.io/meovenui/
+- Cloudflare Pages (link chính gửi khách): https://meovenui.pages.dev/ , dự án `meovenui` trong tài khoản Cloudflare lbph.work@gmail.com.
+- GitHub Pages (bản dự phòng): https://lbphwork-cloud.github.io/meovenui/
+
+Cập nhật bản Cloudflare sau khi sửa nội dung:
+
+```bash
+python3 build.py && npx wrangler@4 pages deploy dist --project-name meovenui --branch main
+```
 
 File `.github/workflows/pages.yml` tự chạy `build.py` mỗi lần push lên `main`, với `SITE_URL` và `BASE_PATH` khớp đường dẫn `/meovenui/`.
 
