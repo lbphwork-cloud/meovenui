@@ -1,0 +1,415 @@
+{
+  "site": {
+    "name": "Mèo về núi",
+    "url": "https://meovenui.pages.dev",
+    "tagline": "Local guide người Quảng Trị",
+    "description": "Tour ghép và tour riêng khám phá Quảng Trị cùng local guide người địa phương: Khe Sanh, Lao Bảo, Tà Puồng, Thành cổ, Địa đạo Vịnh Mốc.",
+    "phone": "0931163247",
+    "phone_display": "0931.163.247",
+    "email": "meovenui@gmail.com",
+    "zalo": "https://zalo.me/0931163247",
+    "messenger": "https://m.me/meovenui",
+    "tiktok": "https://www.tiktok.com/@meovenui",
+    "facebook": "https://www.facebook.com/meovenui/",
+    "instagram": "https://www.instagram.com/meovenui/"
+  },
+
+  "home": {
+    "hero_img": "khe-sanh/hero",
+    "eyebrow": "Mèo về núi - Local guide Quảng Trị",
+    "title": "Đi Quảng Trị cùng người con của vùng đất này",
+    "lead": "Tour ghép nhóm nhỏ và tour riêng theo yêu cầu. Nghe chuyện lịch sử tại Thành cổ, Địa đạo Vịnh Mốc, săn mây trên đồi điện gió Khe Sanh, ngủ nhà sàn người Bru Vân Kiều và ăn đặc sản Lào ở Lao Bảo.",
+    "stats": [
+      {"num": "4", "label": "hành trình đang mở"},
+      {"num": "6-12", "label": "khách mỗi đoàn ghép"},
+      {"num": "100+", "label": "khách đã đi cùng Mèo"},
+      {"num": "5.400+", "label": "người theo dõi trên TikTok"}
+    ],
+    "about": {
+      "img": "meo/rung-thong",
+      "title": "Mèo về núi là ai?",
+      "paras": [
+        "Mèo là một người trẻ bỏ phố về quê làm du lịch, mang theo mong muốn đưa nhiều người hơn đến với Quảng Trị. Hơn một năm tập trung tìm hiểu mảnh đất này, Mèo đã đồng hành cùng hơn 100 du khách.",
+        "Một tour với Mèo không chỉ để nghe kể chuyện lịch sử. Bạn còn được khám phá một Quảng Trị thật đẹp, gặp con người, văn hoá và cảnh sắc nơi đây, và có thêm những người bạn mới ở vùng đất mới.",
+        "Các điểm tham quan ở Quảng Trị nằm khá xa nhau. Đi cùng hướng dẫn viên bản địa giúp bạn có lịch trình hợp lý, tối ưu thời gian và không phải lo chuyện di chuyển."
+      ]
+    },
+    "featured_videos": ["7591181617167731976", "7597601096747568391", "7622310159318043912", "7624329410333707527", "7594158489954536711", "7584904541481487634", "7637165698623524103", "7589509262049627410"]
+  },
+
+  "videos": {
+    "7591181617167731976": "Đi tour với Mèo 2 ngày 1 đêm sẽ như thế nào",
+    "7597601096747568391": "Lịch trình tour ghép xe máy khám phá Khe Sanh",
+    "7643036949917207816": "Khe Sanh mùa nào đẹp?",
+    "7637165698623524103": "Săn mây ở Khe Sanh",
+    "7589509262049627410": "Cập nhật rừng phong hương cuối tháng 12",
+    "7622310159318043912": "Tour Quảng Trị 3 ngày 2 đêm với local guide",
+    "7586381746749312274": "Lao Bảo, xã biên giới giáp Lào có gì?",
+    "7584904541481487634": "Vì sao Địa đạo Vịnh Mốc ba tầng không sập?",
+    "7602227029777403154": "Văn hoá đồng bào Bru Vân Kiều",
+    "7678206873509858581": "Thả hoa đăng trên sông Thạch Hãn",
+    "7594158489954536711": "Đu dây ở thác Tà Puồng",
+    "7624329410333707527": "Tour Quảng Trị trong ngày",
+    "7627323126531116306": "Lịch trình gợi ý một ngày tri ân ở Quảng Trị",
+    "7629772671571545362": "Mẹo cho chuyến đi Thành cổ Quảng Trị trọn vẹn",
+    "7680820904170917140": "Chuyện cây bồ đề ở Nghĩa trang Trường Sơn",
+    "7668659435652287764": "Một ngày ở Quảng Trị cùng Mèo"
+  },
+
+  "booking": {
+    "steps": [
+      {"title": "Nhắn Mèo", "text": "Nhắn Zalo hoặc gọi số 0931.163.247, cho Mèo biết tour, ngày đi và số người."},
+      {"title": "Đặt cọc 50%", "text": "Chuyển khoản cọc 50% giá trị tour để giữ chỗ, nội dung ghi tên và số điện thoại. Mèo gửi thông tin tài khoản khi xác nhận còn chỗ."},
+      {"title": "Gửi thông tin", "text": "Gửi ảnh chụp chuyển khoản kèm họ tên, số điện thoại, ngày sinh và số căn cước để Mèo đặt dịch vụ."},
+      {"title": "Vào nhóm đoàn", "text": "Trước ngày khởi hành 2-3 ngày, bạn được thêm vào nhóm Zalo của đoàn. Thanh toán phần còn lại trước 1 ngày khởi hành."}
+    ],
+    "cancel": [
+      "Huỷ tour từ 7 ngày trở lên trước ngày khởi hành: hoàn 100% chi phí.",
+      "Huỷ tour trước 4-6 ngày: hoàn 50% tiền cọc.",
+      "Huỷ tour trong vòng 3 ngày trước ngày khởi hành: không hoàn cọc với bất kỳ lý do nào."
+    ],
+    "force_majeure": "Khi có sự kiện bất khả kháng xảy ra sau ngày chốt tour, liên quan đến chính quyền địa phương (thay đổi chính sách đón khách, bạo động, chiến tranh) hoặc thời tiết (lũ quét, sạt lở, thiên tai), hai bên sẽ cùng trao đổi để đưa ra phương án khắc phục tốt nhất. Lịch trình có thể thay đổi cho phù hợp."
+  },
+
+  "tours": [
+    {
+      "slug": "khe-sanh-2n1d",
+      "name": "Khe Sanh 2 ngày 1 đêm",
+      "short": "Săn mây đồi điện gió, sân bay Tà Cơn, Cây cô đơn, đồi cỏ xã Húc",
+      "hero_img": "khe-sanh/hero",
+      "card_img": "khe-sanh/cay-co-don",
+      "facts": [
+        {"k": "Thời gian", "v": "2 ngày 1 đêm"},
+        {"k": "Hình thức", "v": "Tour ghép xe máy tự lái"},
+        {"k": "Số khách", "v": "Tối đa 7 người"},
+        {"k": "Xuất phát", "v": "Khe Sanh"}
+      ],
+      "price_from": "1.990.000đ",
+      "price_unit": "/khách",
+      "price_note": "Giá tuỳ số khách trong đoàn",
+      "intro_title": "Khe Sanh, vùng núi phía Tây Quảng Trị",
+      "intro": [
+        "Khe Sanh có khí hậu dễ chịu và không khí trong lành quanh năm. Hành trình 2 ngày 1 đêm đưa bạn qua những điểm đẹp nhất của vùng núi này: săn mây trên đồi điện gió lúc bình minh, nghe chuyện chiến trường Khe Sanh ở sân bay Tà Cơn, ngồi cà phê đặc sản và ăn món Lào.",
+        "Mèo giới hạn tối đa 7 người mỗi đoàn để giữ chất lượng chuyến đi."
+      ],
+      "highlights": [
+        {"title": "Cảnh đẹp thiên nhiên", "text": "Đồi điện gió Hướng Tân, Amaccao, Đỉnh Cu Vơ, Cây cô đơn và đồi cỏ xã Húc."},
+        {"title": "Lịch sử", "text": "Chiến thắng Khe Sanh qua Sân bay Tà Cơn và Bảo tàng Chiến thắng Đường 9."},
+        {"title": "Cà phê Khe Sanh", "text": "Một trong 3 vùng trồng Arabica của Việt Nam, có cả giống Liberica hiếm."},
+        {"title": "Văn hoá và ẩm thực", "text": "Văn hoá đồng bào Vân Kiều và bữa trưa đặc sản Lào ở ngày cuối."}
+      ],
+      "videos": ["7591181617167731976", "7597601096747568391", "7643036949917207816", "7637165698623524103", "7589509262049627410"],
+      "days": [
+        {
+          "label": "Ngày 1",
+          "title": "Săn mây, sân bay Tà Cơn và hoàng hôn Đỉnh Cu Vơ",
+          "pre": "Từ các tỉnh phía Bắc có xe giường nằm đến Khe Sanh lúc 5h sáng. Khách từ tỉnh khác có thể đến từ hôm trước, phụ thu tiền phòng 1 đêm.",
+          "items": [
+            {"part": "Sáng", "time": "5h30", "text": "Săn mây ở **Điện gió Hướng Tân** (không bắt buộc)"},
+            {"part": "Sáng", "time": "7h30", "text": "Ăn sáng đặc sản địa phương, cà phê check-in Khe Sanh"},
+            {"part": "Sáng", "time": "9h30", "text": "Khám phá **Sân bay Tà Cơn** và **Bảo tàng Chiến thắng Đường 9**"},
+            {"part": "Trưa", "time": "11h30", "text": "Ăn trưa tại nhà hàng địa phương"},
+            {"part": "Trưa", "time": "13h00", "text": "Nhận phòng khách sạn, nghỉ trưa"},
+            {"part": "Chiều", "time": "15h00", "text": "Check-in **Cây cô đơn** và **Đỉnh Cu Vơ**"},
+            {"part": "Chiều", "time": "18h00", "text": "Về khách sạn tắm rửa, nghỉ ngơi"},
+            {"part": "Tối", "time": "19h30", "text": "Ăn tối tại nhà hàng địa phương"}
+          ],
+          "imgs": ["khe-sanh/dien-gio-huong-tan", "khe-sanh/ho-khe-sanh"],
+          "img_note": "Nước hồ từ tháng 8 đến tháng 12 sẽ đục, không trong như ảnh."
+        },
+        {
+          "label": "Ngày 2",
+          "title": "Điện gió Amaccao, đồi cỏ xã Húc và đặc sản Lào",
+          "items": [
+            {"part": "Sáng", "time": "5h30", "text": "Săn mây ở **Điện gió Amaccao**"},
+            {"part": "Sáng", "time": "7h30", "text": "Ăn sáng đặc sản địa phương"},
+            {"part": "Sáng", "time": "8h30", "text": "Check-in **Đồi cỏ xã Húc**"},
+            {"part": "Sáng", "time": "11h00", "text": "Về khách sạn dọn đồ, trả phòng"},
+            {"part": "Trưa", "time": "12h00", "text": "Ăn trưa đặc sản Lào"},
+            {"part": "Chiều", "time": "14h00", "text": "Ngồi cà phê chờ xe đón. Xe khách đi Huế, Đà Nẵng, Hà Nội chuyến cuối lúc 15h00"}
+          ],
+          "extra_title": "Nếu bạn ở lại thêm buổi chiều",
+          "extra": ["Check-in Cửa khẩu Lao Bảo", "Tìm hiểu về Nhà tù Lao Bảo", "Food tour ẩm thực địa phương ở Chợ Lao Bảo"],
+          "imgs": ["khe-sanh/dien-gio-amaccao", "khe-sanh/doi-co-xa-huc"]
+        }
+      ],
+      "price_table": {
+        "head": ["Số khách", "Giá tour/khách"],
+        "rows": [
+          ["7 khách", "1.990.000đ"],
+          ["6 khách", "2.090.000đ"],
+          ["5 khách", "2.190.000đ"],
+          ["4 khách", "2.290.000đ"],
+          ["3 khách", "2.600.000đ"],
+          ["2 khách", "3.000.000đ"],
+          ["1 khách", "3.800.000đ"]
+        ]
+      },
+      "included": [
+        "Hướng dẫn viên đi cùng giới thiệu về Khe Sanh, dẫn đoàn và chăm lo trong suốt hành trình",
+        "Lưu trú 1 đêm tại Khe Sanh, phòng tiêu chuẩn 4 người/phòng",
+        "Xe máy di chuyển tại Khe Sanh, đã gồm xăng xe",
+        "Vé vào cửa Sân bay Tà Cơn",
+        "Các bữa ăn trong lịch trình: 2 bữa sáng, 2 bữa trưa, 1 bữa tối"
+      ],
+      "notes": [
+        "Đây là tour ghép xe máy tự lái. Bạn chưa có bằng lái hoặc tay lái chưa vững thì nhắn trước để Mèo sắp xếp.",
+        "Bạn cần lưu trú thêm hoặc muốn ở phòng riêng thì nhắn Mèo tư vấn thêm."
+      ],
+      "season": {
+        "title": "Mùa phong hương (sau sau) thay lá",
+        "text": [
+          "Đây là mùa được săn đón nhất ở Khe Sanh, nhưng thời điểm đẹp nhất chỉ kéo dài khoảng 1 tháng. Cánh rừng không đổi màu cùng một lúc, mỗi cây lại mang một sắc lá đậm nhạt khác nhau.",
+          "Lá bắt đầu đổi màu từ khoảng đầu tháng 11 và rụng hết vào khoảng giữa tháng 1 dương lịch, tuỳ thời tiết từng năm."
+        ],
+        "imgs": ["khe-sanh/phong-huong-01", "khe-sanh/phong-huong-06", "khe-sanh/phong-huong-02", "khe-sanh/phong-huong-04", "khe-sanh/phong-huong-07", "khe-sanh/phong-huong-03", "khe-sanh/phong-huong-08", "khe-sanh/phong-huong-05", "khe-sanh/phong-huong-09", "khe-sanh/phong-huong-10"]
+      },
+      "more": {
+        "title": "Những điều đáng khám phá khác ở Khe Sanh",
+        "items": [
+          {"title": "Văn hoá", "text": "Ở nhà sàn, tìm hiểu nét văn hoá độc đáo của đồng bào Bru Vân Kiều và Pa Cô.", "img": "khe-sanh/nha-san-van-kieu"},
+          {"title": "Cà phê", "text": "Cây cà phê Khe Sanh có 100 năm lịch sử. Đây là 1 trong 3 vùng trồng Arabica ở Việt Nam, nổi bật với giống cà phê lạ Liberica.", "img": "khe-sanh/ca-phe"},
+          {"title": "Lịch sử", "text": "Cụm di tích Sân bay Tà Cơn, Điểm cao 689 và Căn cứ Làng Vây kể lại một chiến thắng hào hùng của dân tộc.", "img": "khe-sanh/hero"},
+          {"title": "Điểm đến theo mùa", "text": "Hoa dã quỳ cuối tháng 11, hoa điệp anh đào đầu tháng 3, mùa dâu tây dịp Tết âm lịch, mùa tắm thác, tắm suối.", "img": "khe-sanh/doi-co"}
+        ]
+      },
+      "gallery": ["khe-sanh/cay-co-don", "khe-sanh/doi-co", "meo/rung-thong", "khe-sanh/dien-gio-huong-tan", "khe-sanh/dien-gio-amaccao", "khe-sanh/doi-co-xa-huc"]
+    },
+
+    {
+      "slug": "quang-tri-3n2d",
+      "name": "Quảng Trị 3 ngày 2 đêm",
+      "short": "Thành cổ, Hiền Lương, Vịnh Mốc, Tà Cơn, nhà sàn Chênh Vênh, Lao Bảo",
+      "hero_img": "qt/dinh-cu-vo",
+      "hero_pos": "30% 70%",
+      "card_img": "qt/thanh-co",
+      "facts": [
+        {"k": "Thời gian", "v": "3 ngày 2 đêm"},
+        {"k": "Phương tiện", "v": "Ô tô 16 chỗ"},
+        {"k": "Số khách", "v": "Tour ghép 6-12 khách"},
+        {"k": "Xuất phát", "v": "Trung tâm Đông Hà"}
+      ],
+      "price_from": "4.100.000đ",
+      "price_unit": "/khách",
+      "price_note": "Áp dụng cho đoàn từ 6 khách",
+      "intro_title": "Lịch sử, văn hoá và thiên nhiên trong một hành trình",
+      "intro": [
+        "Quảng Trị là dải đất hẹp miền Trung, vừa giáp biển vừa có vùng biên giới giáp Lào. Hành trình 3 ngày 2 đêm đi theo dòng chảy lịch sử ở ngày đầu, lên rừng núi phía Tây ở ngày thứ hai và chạm tới xã biên giới Lao Bảo ở ngày cuối.",
+        "Tour xuất phát ngay tại trung tâm Đông Hà, gần cả ga tàu lẫn bến xe để bạn tiện di chuyển."
+      ],
+      "highlights": [
+        {"title": "Di tích lịch sử", "text": "Nghĩa trang Trường Sơn, Cầu Hiền Lương, Địa đạo Vịnh Mốc, Thành cổ Quảng Trị, có hướng dẫn viên thuyết minh tại điểm."},
+        {"title": "Rừng núi phía Tây", "text": "Cánh đồng điện gió trải dài, Cây cô đơn, Đỉnh Cu Vơ và thác Chênh Vênh."},
+        {"title": "Một đêm ở nhà sàn", "text": "Ngủ nhà sàn của đồng bào Bru Vân Kiều tại làng cộng đồng Chênh Vênh, xã Hướng Phùng."},
+        {"title": "Ẩm thực", "text": "Đặc sản địa phương mỗi ngày, có cả bữa trưa ẩm thực Lào ở Lao Bảo."}
+      ],
+      "fit": "Phù hợp với khách có sức khoẻ tốt, muốn tìm hiểu lịch sử và khám phá văn hoá, thiên nhiên.",
+      "videos": ["7622310159318043912", "7584904541481487634", "7586381746749312274", "7602227029777403154", "7678206873509858581"],
+      "places": [
+        {"name": "Thành cổ Quảng Trị", "img": "qt/thanh-co"},
+        {"name": "Tượng đài Khát vọng Thống nhất", "img": "qt/tuong-dai-thong-nhat"},
+        {"name": "Nghĩa trang Liệt sĩ Quốc gia Trường Sơn", "img": "qt/ntls-truong-son"},
+        {"name": "Sông Thạch Hãn", "img": "qt/song-thach-han"},
+        {"name": "Cầu Hiền Lương", "img": "qt/cau-hien-luong"},
+        {"name": "Địa đạo Vịnh Mốc", "img": "qt/dia-dao-vinh-moc"},
+        {"name": "Cây cô đơn", "img": "qt/cay-co-don"},
+        {"name": "Sân bay Tà Cơn", "img": "qt/san-bay-ta-con"},
+        {"name": "Cafe Triệu Mẫn", "img": "qt/cafe-trieu-man"},
+        {"name": "Cửa khẩu Lao Bảo", "img": "qt/cua-khau-lao-bao"},
+        {"name": "Làng du lịch Chênh Vênh", "img": "qt/lang-chenh-venh"},
+        {"name": "Đỉnh Cu Vơ", "img": "qt/dinh-cu-vo"}
+      ],
+      "days": [
+        {
+          "label": "Ngày 1",
+          "title": "Về nguồn, khám phá lịch sử",
+          "pre": "Tham quan các di tích lịch sử tiêu biểu theo đúng dòng chảy của lịch sử.",
+          "items": [
+            {"time": "7h30", "text": "Đón đoàn tận nơi tại trung tâm Đông Hà"},
+            {"time": "8h00", "text": "Ăn sáng đặc sản địa phương"},
+            {"time": "9h00", "text": "Dâng hương ở **Nghĩa trang Liệt sĩ Quốc gia Trường Sơn**"},
+            {"time": "10h30", "text": "Nghe thuyết minh và check-in **Cầu Hiền Lương, sông Bến Hải**, vĩ tuyến 17, nơi từng là giới tuyến tạm thời chia cắt hai miền Nam Bắc"},
+            {"time": "12h00", "text": "Ăn trưa tại nhà hàng ven biển, nghỉ ngơi"},
+            {"time": "14h00", "text": "Tham quan **Địa đạo Vịnh Mốc**, ngôi làng dưới lòng đất"},
+            {"time": "16h30", "text": "Dâng hương ở **Thành cổ Quảng Trị**, nấm mồ chung của các anh hùng liệt sĩ đã ngã xuống trong 81 ngày đêm mùa hè đỏ lửa năm 1972"},
+            {"time": "17h30", "text": "Thả hoa trên **sông Thạch Hãn**"},
+            {"time": "19h00", "text": "Ăn tối món địa phương: bánh canh cá lóc"},
+            {"time": "20h00", "text": "Về khách sạn nghỉ ngơi, thời gian tự do"}
+          ],
+          "note": "Ngày 1 có dâng hương tại nghĩa trang và di tích, bạn nhớ mặc trang phục lịch sự: quần, váy dài qua gối, không mặc áo dây, áo sát nách. Mang theo mũ nón và áo khoác chống nắng.",
+          "imgs": ["qt/cau-hien-luong", "qt/dia-dao-vinh-moc"]
+        },
+        {
+          "label": "Ngày 2",
+          "title": "Khám phá thiên nhiên và văn hoá",
+          "items": [
+            {"time": "7h30", "text": "Trả phòng, đi ăn sáng"},
+            {"time": "8h30", "text": "Xuất phát lên Khe Sanh, khoảng 1 tiếng 30 phút từ Đông Hà"},
+            {"time": "10h00", "text": "Dừng chân ở quán cà phê view đẹp, nhất định phải thử khi đến Khe Sanh"},
+            {"time": "11h30", "text": "Ăn trưa ở nhà hàng địa phương"},
+            {"time": "14h00", "text": "Check-in và nghe thuyết minh về **Sân bay Tà Cơn**, căn cứ cũ của Mỹ, bối cảnh phim Mưa đỏ, nơi trưng bày 2 máy bay cỡ lớn C119 và C130"},
+            {"time": "15h30", "text": "Check-in **Cây cô đơn**"},
+            {"time": "17h00", "text": "Nhận phòng homestay, tắm thác Chênh Vênh (không bắt buộc)"},
+            {"time": "19h00", "text": "Ăn tối, giao lưu tại homestay, nhà sàn của đồng bào Bru Vân Kiều ở xã Hướng Phùng"}
+          ],
+          "imgs": ["qt/san-bay-ta-con", "qt/homestay-chenh-venh"]
+        },
+        {
+          "label": "Ngày 3",
+          "title": "Lao Bảo, xã biên giới giáp Lào",
+          "items": [
+            {"time": "6h00", "text": "Ăn sáng tại homestay"},
+            {"time": "7h00", "text": "Trả phòng, di chuyển lên Lao Bảo"},
+            {"time": "8h00", "text": "Khám phá **Đỉnh Cu Vơ**, check-in cùng các cột điện gió khổng lồ trên đường đi"},
+            {"time": "9h30", "text": "Check-in **Cửa khẩu Lao Bảo**"},
+            {"time": "11h00", "text": "Dâng hương ở di tích **Nhà tù Lao Bảo**, từng là 1 trong 5 nhà tù lớn nhất Đông Dương thời kháng chiến chống Pháp"},
+            {"time": "12h00", "text": "Ăn trưa đặc sản Lào"},
+            {"time": "14h00", "text": "Chia tay đoàn"}
+          ],
+          "extra_title": "Sau khi chia tay, Mèo đưa bạn tới",
+          "extra": [
+            "Điểm đón xe khách nếu bạn về lại Hà Nội, Đà Nẵng",
+            "Khách sạn bạn muốn ở thêm, trong khu vực trung tâm Khe Sanh",
+            "Ga Đông Hà hoặc địa điểm bạn yêu cầu, trong khu vực trung tâm Đông Hà"
+          ],
+          "imgs": ["qt/cua-khau-lao-bao", "qt/dinh-cu-vo"]
+        }
+      ],
+      "price_table": {
+        "head": ["Hình thức", "Giá/khách"],
+        "rows": [
+          ["Trọn tour 3 ngày 2 đêm", "4.100.000đ"],
+          ["Chỉ đi Ngày 1", "1.500.000đ"],
+          ["Ngày 2 và Ngày 3, đón ở Đông Hà", "2.700.000đ"],
+          ["Ngày 2 và Ngày 3, đón ở Khe Sanh, tự túc ăn sáng", "2.500.000đ"]
+        ],
+        "notes": [
+          "Tour khởi hành từ 6 khách, tối đa 12 khách. Mèo ưu tiên khách đăng ký trọn tour để trải nghiệm đầy đủ.",
+          "Ngày 2 và Ngày 3 không tách lẻ vì homestay ở xa trung tâm, không trả khách giữa chừng được.",
+          "Đoàn từ 1 đến 5 khách sẽ có giá khác. Nếu đoàn chưa đủ người, Mèo báo lại và cùng bạn điều chỉnh muộn nhất 7 ngày trước khởi hành."
+        ]
+      },
+      "included": [
+        "Hướng dẫn viên địa phương đi cùng giới thiệu, hỗ trợ trong suốt hành trình",
+        "Xe ô tô 16 chỗ đưa đón",
+        "2 bữa sáng và 5 bữa chính tại nhà hàng, quán ăn địa phương",
+        "1 đêm nhà sàn tập thể của người Bru Vân Kiều tại làng cộng đồng Chênh Vênh",
+        "1 đêm khách sạn khu Vincom Đông Hà, phòng mới và sạch sẽ, tiêu chuẩn 4 người/phòng, nam nữ phòng riêng",
+        "Vé tham quan và vé gửi xe tại các điểm trong lịch trình",
+        "Chi phí làm lễ dâng hương ở Thành cổ Quảng Trị và Nghĩa trang Trường Sơn",
+        "Hướng dẫn viên tại điểm ở Cầu Hiền Lương, Địa đạo Vịnh Mốc, Thành cổ Quảng Trị, Sân bay Tà Cơn (tuỳ thời gian thực tế)"
+      ],
+      "excluded": [
+        "Cà phê, ăn vặt",
+        "Hương, hoa, lễ mua thêm tại các điểm dâng hương và nghĩa trang (không bắt buộc)",
+        "Các chi phí khác không có trong mục bao gồm"
+      ],
+      "notes": [
+        "Muốn ở phòng riêng, bạn đăng ký trước với Mèo, phụ thu 300.000đ-500.000đ/phòng tuỳ hạng phòng."
+      ],
+      "gallery": ["qt/thanh-co", "qt/song-thach-han", "qt/tuong-dai-thong-nhat", "qt/cafe-trieu-man", "qt/lang-chenh-venh", "qt/cay-co-don"]
+    },
+
+    {
+      "slug": "ta-puong-1-ngay",
+      "name": "Thác Tà Puồng 1 ngày",
+      "short": "Viên ngọc xanh giữa núi rừng Trường Sơn, tắm thác và ăn mẹt đặc sản",
+      "hero_img": "ta-puong/hero",
+      "hero_pos": "center 30%",
+      "card_img": "ta-puong/thac",
+      "facts": [
+        {"k": "Thời gian", "v": "1 ngày"},
+        {"k": "Phương tiện", "v": "Ô tô đón trả tận nơi"},
+        {"k": "Số khách", "v": "Tour ghép 6-12 khách"},
+        {"k": "Xuất phát", "v": "Trung tâm xã Khe Sanh"}
+      ],
+      "price_from": "890.000đ",
+      "price_unit": "/người",
+      "price_note": "Đã gồm xe, bữa trưa, vé vào thác",
+      "intro_title": "Khám phá viên ngọc xanh giữa núi rừng Trường Sơn",
+      "intro": [
+        "Một ngày để bạn thả lỏng hoàn toàn và kết nối với thiên nhiên. Vùng vẫy giữa dòng thác mát lạnh, ăn uống và trò chuyện cùng những người bạn mới quen.",
+        "Tà Puồng nằm trên tuyến đường Hồ Chí Minh nhánh Tây, cách trung tâm Khe Sanh 70km đường đèo, hơn 2 tiếng di chuyển. Để lên chân thác, bạn đi bộ thêm khoảng 1km đường đất. Lên tới thác là ngắt kết nối hoàn toàn với bên ngoài vì không có sóng điện thoại."
+      ],
+      "videos": ["7594158489954536711"],
+      "days": [
+        {
+          "label": "Lịch trình",
+          "title": "Một ngày ở thác Tà Puồng",
+          "items": [
+            {"time": "8h00", "text": "Xuất phát từ Khe Sanh, đón khách tận nơi"},
+            {"time": "10h30", "text": "Có mặt tại **thác Tà Puồng**, chụp ảnh, tắm thác"},
+            {"time": "12h00", "text": "Ăn trưa mẹt đặc sản, giao lưu và nghỉ ngơi"},
+            {"time": "14h30", "text": "Về lại Khe Sanh"},
+            {"time": "16h30", "text": "Check-in **Đỉnh Cu Vơ**, ngắm hoàng hôn"},
+            {"time": "18h00", "text": "Trả khách tại Khe Sanh"}
+          ],
+          "imgs": ["ta-puong/thac", "ta-puong/cu-vo-hoang-hon"]
+        }
+      ],
+      "included": [
+        "Xe ô tô đón và trả tận nơi (trong trung tâm xã Khe Sanh)",
+        "Bữa trưa mẹt đặc sản tại thác",
+        "Vé vào thác, phí thuê chòi",
+        "Hướng dẫn viên đi cùng, kết nối đoàn và hỗ trợ suốt hành trình"
+      ],
+      "notes": [
+        "Đường lên chân thác cần đi bộ khoảng 1km đường đất, bạn nên mang giày dép bám tốt.",
+        "Ở thác không có sóng điện thoại, bạn báo trước cho người nhà nếu cần."
+      ],
+      "gallery": ["ta-puong/hero", "ta-puong/thac", "ta-puong/met-dac-san", "ta-puong/cu-vo-hoang-hon"]
+    },
+
+    {
+      "slug": "quang-tri-1-ngay",
+      "name": "Quảng Trị 1 ngày theo dòng lịch sử",
+      "short": "Trường Sơn, Hiền Lương, Cửa Tùng, Vịnh Mốc, Thành cổ và hoa đăng Thạch Hãn",
+      "hero_img": "qt1/hien-luong-doan",
+      "hero_pos": "center 40%",
+      "card_img": "qt1/thanh-co-doan",
+      "facts": [
+        {"k": "Thời gian", "v": "1 ngày"},
+        {"k": "Phương tiện", "v": "Ô tô đón trả tận nơi"},
+        {"k": "Số khách", "v": "Tour ghép 6-12 khách"},
+        {"k": "Xuất phát", "v": "Trung tâm Đông Hà"}
+      ],
+      "price_from": "1.290.000đ",
+      "price_unit": "/người",
+      "price_note": "Đã gồm xe, bữa trưa hải sản, vé tham quan",
+      "intro_title": "Khám phá theo dòng thời gian của lịch sử",
+      "intro": [
+        "Đây không phải một tour đi cho biết, mà là hành trình đi theo dòng chảy lịch sử và lắng nghe thật sâu câu chuyện của mỗi điểm đến.",
+        "Để khi rời Quảng Trị, bạn không chỉ nhớ những cái tên, mà thật sự hiểu quá khứ bi tráng mà vùng đất này đã đi qua."
+      ],
+      "videos": ["7624329410333707527", "7627323126531116306", "7629772671571545362", "7680820904170917140", "7678206873509858581"],
+      "days": [
+        {
+          "label": "Lịch trình",
+          "title": "Một ngày tri ân ở Quảng Trị",
+          "items": [
+            {"time": "8h00", "text": "Xuất phát từ Đông Hà, đón khách tận nơi nếu bạn ở Đông Hà"},
+            {"time": "8h30", "text": "Dâng hương ở **Nghĩa trang Liệt sĩ Quốc gia Trường Sơn**"},
+            {"time": "10h00", "text": "**Cầu Hiền Lương**, sông Bến Hải"},
+            {"time": "11h30", "text": "Ăn trưa ở nhà hàng ven biển Cửa Tùng"},
+            {"time": "13h30", "text": "**Địa đạo Vịnh Mốc**"},
+            {"time": "16h00", "text": "Dâng hương ở **Thành cổ Quảng Trị**, thả hoa đăng trên **sông Thạch Hãn**"},
+            {"time": "20h00", "text": "Trả khách tại Đông Hà"}
+          ],
+          "note": "Tour có dâng hương tại nghĩa trang và di tích, bạn nhớ mặc trang phục lịch sự: quần, váy dài qua gối, không mặc áo dây, áo sát nách.",
+          "imgs": ["qt1/truong-son", "qt1/vinh-moc-doan"]
+        }
+      ],
+      "included": [
+        "Hướng dẫn viên đi cùng, kết nối đoàn và hỗ trợ suốt hành trình",
+        "Một bữa trưa hải sản ở nhà hàng ven biển",
+        "Xe ô tô đón và trả tận nơi (trong trung tâm phường Đông Hà)",
+        "Vé tham quan và hướng dẫn viên thuyết minh tại các điểm",
+        "Lễ dâng hương ở Thành cổ Quảng Trị"
+      ],
+      "excluded": [
+        "Hương và lễ mua thêm tại các điểm dâng hương"
+      ],
+      "gallery": ["qt1/hien-luong-doan", "qt1/thanh-co-doan", "qt1/vinh-moc-doan", "qt1/truong-son", "qt/song-thach-han", "qt/cau-hien-luong"]
+    }
+  ]
+}
