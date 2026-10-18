@@ -125,7 +125,7 @@ def head(title, desc, path, og_img, extra=''):
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,100,0..1;1,9..144,300..600,100,0..1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css?v={VERSION}">
 {extra}</head>
 <body>
@@ -135,7 +135,7 @@ def head(title, desc, path, og_img, extra=''):
 def header():
     return f'''<header class="site-header">
   <div class="wrap">
-    <a class="logo" href="/"><b>{e(SITE['name'])}</b><small>{e(SITE['tagline'])}</small></a>
+    <a class="logo" href="/" aria-label="Mèo về núi, về trang chủ"><img src="/img/brand/logo.svg" width="202" height="96" alt="Mèo về núi - Quang Tri Tour"></a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav class="nav" id="nav">
       <a href="/#tour">Các tour</a>
@@ -154,7 +154,7 @@ def footer():
     return f'''<footer class="site-footer">
   <div class="wrap">
     <div>
-      <a class="logo" href="/"><b>{e(SITE['name'])}</b><small>{e(SITE['tagline'])}</small></a>
+      <a class="logo logo--footer" href="/" aria-label="Mèo về núi, về trang chủ"><img src="/img/brand/logo-light.svg" width="202" height="96" alt="Mèo về núi - Quang Tri Tour"></a>
       <p style="margin-top:12px;max-width:340px">Mình là Mèo, local guide người Quảng Trị. Mình dẫn tour ghép nhóm nhỏ và tour riêng đi khắp quê mình, từ di tích lịch sử tới núi rừng phía Tây.</p>
     </div>
     <div>
