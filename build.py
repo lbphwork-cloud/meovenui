@@ -405,7 +405,7 @@ def build_tour(t):
         left = f'<div class="card reveal"><h3>Bảng giá</h3><table class="ptable"><thead><tr><th>{e(pt["head"][0])}</th><th>{e(pt["head"][1])}</th></tr></thead><tbody>{rows}</tbody></table>{pn}</div>'
     else:
         left = f'''<div class="card reveal"><h3>Giá tour</h3>
-  <div style="font-family:var(--serif);font-size:44px;font-weight:500;color:var(--clay-600);line-height:1.1;font-variation-settings:'SOFT' 100">{e(t['price_from'])}<small style="font-family:var(--sans);font-size:16px;font-weight:500;color:var(--ink-3)">{e(t['price_unit'])}</small></div>
+  <div style="font-size:34px;font-weight:700;color:var(--moss-900);line-height:1.15">{e(t['price_from'])}<small style="font-size:15px;font-weight:500;color:var(--ink-3)">{e(t['price_unit'])}</small></div>
   <p style="color:var(--ink-2);margin-top:10px">{e(t['price_note'])}. {e(t['facts'][2]['v'])}.</p>
   <div class="share-row">{zalo_btn('Hỏi Mèo lịch khởi hành', t)}{call_btn()}</div>
 </div>'''
