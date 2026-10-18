@@ -7,13 +7,13 @@ Không cần cài thêm thư viện nào.
 Khi web nằm trong thư mục con (GitHub Pages dạng tênuser.github.io/meovenui):
   SITE_URL=https://lbphwork-cloud.github.io/meovenui BASE_PATH=/meovenui python3 build.py
 """
-import html, json, os, re, shutil, struct
+import hashlib, html, json, os, re, shutil, struct
 from datetime import date
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, 'src')
 DIST = os.path.join(ROOT, 'dist')
-VERSION = date.today().strftime('%Y%m%d')
+VERSION = hashlib.md5(b''.join(open(os.path.join(SRC, 'assets', f), 'rb').read() for f in ('style.css', 'main.js'))).hexdigest()[:8]
 
 data = json.load(open(os.path.join(SRC, 'tours.json'), encoding='utf-8'))
 SITE, HOME, TOURS, VIDEOS, BOOK = data['site'], data['home'], data['tours'], data['videos'], data['booking']
